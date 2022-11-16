@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #0f5238;
+}
+
+.menu{
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    font-size: 25px;
+    color: #d4a14a;
+    font-weight: bold;
+    background-color: #0f5238;
+}
+
+.content{
+    background-color: #ffe4c4;
+}
+
+#imax{
+    margin-top: 2%;
+    width: 500px;
+    height: 300px;
+    background-image: url(../assets/cinema.jpg);
+    background-position: center;
+    transition: 0.5s background-image;
+}
+
+#imax:hover{
+    width: 500px;
+    height: 300px;
+    background-image: url(../assets/bed.jpg);
+    background-position: center;
+    transition: 0.5s;
+    mask-repeat: no-repeat;
+}
+
+.text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Arial';
+    font-weight: bold;
+    color: #0f5238;
+}
+
+.partner{
+    display: flex;
+    flex-direction: column;
+}
+
+.our-partner{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+    font-size: 30px;
+    font-weight: bold;
+    color: #d4a14a;
+}
+
+.part-item{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.now-show{
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #0f5238;
+}
+
+.film{
+    display: flex;
+    justify-content: space-evenly;
+    border: 15px solid #0f5238;
+    margin: 3%;
+    padding: 1% 0;
+}
+
+.footer{
+    justify-content: space-between;
+    display: flex;
+    background-color: #0f5238;
+}
+
+.foot-item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Arial';
+    font-size: 20px;
+    color:#d4a14a; 
+    width: 50%;
+    margin: 1%;
+}
